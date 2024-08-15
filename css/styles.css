@@ -1,0 +1,127 @@
+body 
+{
+    font-family: arial;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 20px;
+    background-image: url(../img/fondo.jpg);
+}
+
+.container 
+{
+    max-width: 600px;
+    align-items: center;
+    margin: 0 auto;
+    padding: 25px;
+    background: rgba(0, 0, 0, 0.718);
+    border-radius: 12px;
+    border: 2px solid #fff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0);
+}
+
+h1 
+{
+    text-align: center;
+    color: #fff;
+    font-size: 2em;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.form-group 
+{
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+label 
+{
+    font-weight: 400;
+    color: #fff;
+    display: block;
+    margin-bottom: 8px;
+}
+
+select, .btn 
+{
+    padding: 12px 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #fff;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: center;
+    font-size: 1em;
+    transition: border-color 0.3s ease-in-out;
+}
+
+select:focus, .btn:focus 
+{
+    border-color: #ff69b4;
+    outline: none;
+}
+
+.btn 
+{
+    background-color: #ff69b4;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+    align-items: center;
+    height: 50px;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.btn:hover 
+{
+    background-color: #fc98ca;
+    transform: scale(1.05);
+}
+
+.calcular-btn 
+{
+    background-color: #ff69b4;
+}
+
+.calcular-btn:hover 
+{
+    background-color: #fc98ca;
+}
+
+.figure-container 
+{
+    text-align: center;
+    margin-top: 30px;
+}
+
+#resultado 
+{
+    margin-top: 25px;
+    text-align: center;
+    font-size: 1.5em;
+    color: #ff69b4;
+    font-weight: 500;
+}
+
+.resultado-area 
+{
+    background-color: rgba(255, 105, 180, 0.5);
+    padding: 15px;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+input[type="text"] 
+{
+    width: 250px;
+    padding: 15px;
+    margin: 10px 0;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+}
